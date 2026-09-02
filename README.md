@@ -178,18 +178,6 @@ Customer value should therefore be measured using both sales and profit.
 6. **Prepare for Q4 demand**
    Align inventory, staffing, and commercial activity with the September-to-December peak while protecting margin discipline.
 
-## Dashboard Preview
-
-The dashboard summarizes sales growth, profitability, categories, regions, discounts, customer segments, and shipping performance.
-
-![Commercial analytics dashboard](images/dashboard-preview.png)
-
-## Presentation Preview
-
-The executive presentation translates the workbook findings into a concise management narrative and prioritized actions.
-
-![Executive presentation preview](images/presentation-preview.png)
-
 ## Repository Structure
 
 ```text
