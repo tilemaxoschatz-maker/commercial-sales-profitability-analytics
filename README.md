@@ -1,23 +1,56 @@
 # Commercial Sales, Profitability & Customer Analytics
 
-An end-to-end commercial analytics project built in Google Sheets and Microsoft Excel. The project transforms 9,994 transactional records into management-ready insights about sales growth, profitability, customers, products, regions, discounts, order value, and shipping performance.
+**End-to-end commercial analytics portfolio project built in Google Sheets / Excel**
 
-The repository includes the analytical workbook and an executive PowerPoint presentation that translates the findings into practical commercial recommendations.
+This project transforms **9,994 transactional records** from the Sample Superstore dataset into management-ready insights about **sales growth, profitability, customers, products, regions, discounts, order value, and shipping performance**.
+
+The repository includes the complete analytical workbook and an executive PowerPoint presentation that translates the analysis into practical commercial recommendations.
+
+---
+
+## Dashboard Preview
+
+<p align="center">
+  <img src="dashboard_preview/Screenshot%202026-09-02%20160747.png" alt="Commercial Sales and Profitability Dashboard" width="100%">
+</p>
+
+<p align="center">
+  <img src="dashboard_preview/Screenshot%202026-09-02%20161300.png" alt="Commercial Analytics Dashboard Detail" width="100%">
+</p>
+
+### Project Files
+
+- **[Download the Excel / Google Sheets workbook](./Commercial%20Sales%2C%20Profitability%20%26%20Customer%20Analytics%20-%20Google%20Sheets.xlsx)**
+- **[Download the executive PowerPoint presentation](./Commercial_Sales_Profitability_Customer_Analytics_Insights.pptx)**
+
+> GitHub does not fully preview `.xlsx` and `.pptx` files in the browser. The files are stored correctly in the repository and can be downloaded directly from the links above.
+
+---
 
 ## Project Overview
 
-| Item               | Description                                                                                |
-| ------------------ | ------------------------------------------------------------------------------------------ |
-| Business objective | Identify growth drivers, margin leakage, customer opportunities, and commercial risks      |
-| Dataset            | Sample Superstore transactional dataset                                                    |
-| Analysis period    | 2014–2017                                                                                  |
-| Data volume        | 9,994 transaction rows                                                                     |
-| Main tools         | Google Sheets, Excel, formulas, feature engineering, pivot tables, charts, and PowerPoint  |
-| Primary metrics    | Sales, profit, profit margin, orders, customers, average order value, and loss-making rate |
+| Item | Description |
+|---|---|
+| **Business objective** | Identify growth drivers, margin leakage, customer opportunities, and commercial risks |
+| **Dataset** | Sample Superstore transactional dataset |
+| **Analysis period** | 2014–2017 |
+| **Data volume** | 9,994 transaction rows |
+| **Main tools** | Google Sheets, Excel, formulas, feature engineering, pivot tables, charts, and PowerPoint |
+| **Primary metrics** | Sales, profit, profit margin, orders, customers, average order value, and loss-making rate |
+
+---
+
+## Business Objective
+
+The analysis goes beyond basic sales reporting to answer a more important management question:
+
+> **What is driving profitable growth, where is margin being lost, and what actions should management take to improve commercial performance?**
+
+The project therefore evaluates not only revenue volume, but also the **quality of revenue** across products, customers, regions, discount levels, order values, and shipping methods.
+
+---
 
 ## Business Questions
-
-The analysis addresses the following management questions:
 
 1. How have sales and profit developed over time?
 2. Which categories and sub-categories generate the strongest and weakest profitability?
@@ -27,198 +60,309 @@ The analysis addresses the following management questions:
 6. Which customers generate high revenue but weak or negative profit?
 7. How do order value and shipping mode affect commercial performance?
 
+---
+
 ## Analytical Workflow
 
-The workbook follows a structured analytics process:
+```text
+RAW DATA
+   ↓
+CLEAN DATA
+   ↓
+FEATURE ENGINEERING
+   ↓
+PIVOT ANALYSIS
+   ↓
+BUSINESS ANALYSIS
+   ↓
+DASHBOARD
+   ↓
+EXECUTIVE SUMMARY
+   ↓
+EXECUTIVE PRESENTATION
+```
 
-1. **Raw data preservation** — retains the original dataset for traceability.
+The workbook follows a structured end-to-end analytics process:
+
+1. **Raw data preservation** — retains the original source dataset for traceability.
 2. **Data cleaning and validation** — standardizes and checks the analytical base.
 3. **Feature engineering** — creates business-oriented variables for time, shipping, margins, discounts, losses, unit economics, and order value.
 4. **Pivot analysis** — analyzes performance across products, customers, regions, segments, discounts, shipping modes, and time periods.
 5. **Business analysis** — connects business questions with KPI evidence, interpretations, and recommended actions.
-6. **Dashboard development** — presents the most important results in an executive visual format.
-7. **Executive communication** — summarizes findings and recommendations in a professional PowerPoint presentation.
+6. **Dashboard development** — presents the most important findings in an executive visual format.
+7. **Executive communication** — summarizes the conclusions and recommendations for management.
+
+---
 
 ## Workbook Structure
 
-| Worksheet             | Purpose                                                                             |
-| --------------------- | ----------------------------------------------------------------------------------- |
-| `READ_ME`             | Project objective, workbook guide, key questions, insights, and skills demonstrated |
-| `RAW_DATA`            | Original transactional dataset preserved for reference                              |
-| `CLEAN_DATA`          | Cleaned and validated analytical dataset                                            |
-| `FEATURE_ENGINEERING` | Business-focused variables and analytical flags                                     |
-| `PIVOT`               | Multi-dimensional KPI and profitability analysis                                    |
-| `BUSINESS_ANALYSIS`   | Business questions, evidence, interpretations, and actions                          |
-| `DASHBOARD`           | Executive overview of commercial performance                                        |
-| `EXECUTIVE_SUMMARY`   | Management findings, priorities, and strategic recommendations                      |
+| Worksheet | Purpose |
+|---|---|
+| `READ_ME` | Project objective, workbook guide, key questions, insights, and skills demonstrated |
+| `RAW_DATA` | Original transactional dataset preserved for reference |
+| `CLEAN_DATA` | Cleaned and validated analytical dataset |
+| `FEATURE_ENGINEERING` | Business-focused variables and analytical flags |
+| `PIVOT` | Multi-dimensional KPI and profitability analysis |
+| `BUSINESS_ANALYSIS` | Business questions, evidence, interpretations, and recommended actions |
+| `DASHBOARD` | Executive visual overview of commercial performance |
+| `EXECUTIVE_SUMMARY` | Management findings, priorities, and strategic recommendations |
+
+---
 
 ## Engineered Features
 
-The project extends the source data with analytical variables including:
+The source data was extended with analytical variables including:
 
-* Shipping days
-* Order year, month, quarter, and day of week
-* Weekend indicator
-* Profit margin
-* Sales and profit per unit
-* Loss-making transaction flag
-* Discount category and high-discount flag
-* Order-value category
-* Low-margin flag
+- Shipping days
+- Order year, month, quarter, and day of week
+- Weekend indicator
+- Profit margin
+- Sales per unit
+- Profit per unit
+- Loss-making transaction flag
+- Discount category
+- High-discount flag
+- Order-value category
+- Low-margin flag
 
-These features make it possible to analyze not only sales volume, but also the quality and profitability of revenue.
+These variables make it possible to analyze not only sales volume, but also the **profitability and economic quality of revenue**.
+
+---
 
 ## Executive Performance Snapshot
 
-| KPI                          |                  Result |
-| ---------------------------- | ----------------------: |
-| Total sales                  |              **$2.30M** |
-| Total profit                 |             **$286.4K** |
-| Weighted profit margin       |              **12.47%** |
-| Customers                    |                 **793** |
-| Orders                       | **Approximately 5,000** |
-| Loss-making transaction rate |              **18.72%** |
+| KPI | Result |
+|---|---:|
+| **Total Sales** | **$2.30M** |
+| **Total Profit** | **$286.4K** |
+| **Weighted Profit Margin** | **12.47%** |
+| **Total Orders** | **5,008** |
+| **Total Customers** | **793** |
+| **Average Order Value** | **$458.61** |
+| **Loss-Making Transaction Rate** | **18.72%** |
 
-## Key Insights
+---
 
-### 1. Growth Remained Strong, but Margin Quality Came Under Pressure
+# Key Business Insights
 
-2017 recorded the highest annual performance, with approximately **$733.2K in sales** and **$93.4K in profit**. Sales increased by **20.36%**, while profit increased by **14.24%**, showing that profit growth did not keep pace with revenue growth.
+## 1. Growth remained strong, but margin quality came under pressure
 
-### 2. Commercial Performance Is Highly Seasonal
+2017 recorded the strongest annual performance, with approximately **$733.2K in sales** and **$93.4K in profit**. Sales increased by **20.36%**, while profit increased by **14.24%**, showing that profit growth did not keep pace with revenue growth.
+
+**Business implication:** growth is healthy, but management should protect margin quality as the business scales.
+
+## 2. Commercial performance is highly seasonal
 
 September through December generated **51.61% of total sales**. November produced the highest monthly revenue, while December delivered the highest monthly profit.
 
-Inventory, staffing, and commercial campaigns should therefore be aligned with the Q4 demand peak.
+**Business implication:** inventory, staffing, and commercial campaigns should be aligned with the Q4 demand peak.
 
-### 3. Technology Is the Strongest Profit Engine
+## 3. Technology is the strongest profit engine
 
 Technology generated **36.40% of sales** and **50.79% of total profit**, with a margin of approximately **17.40%**.
 
-It represents the strongest combination of revenue scale and profitability in the portfolio.
+**Business implication:** Technology combines scale with strong profitability and should remain a protected growth area.
 
-### 4. Furniture Generates Revenue Without Sufficient Profit
+## 4. Furniture generates revenue without sufficient profit
 
 Furniture produced **32.30% of sales** but only **6.44% of total profit**, resulting in a margin of approximately **2.49%**.
 
-This indicates significant pricing, discount, cost, or product-mix inefficiency.
+**Business implication:** high revenue does not automatically translate into economic value; pricing, discounting, and product mix require review.
 
-### 5. Tables Are the Primary Product Profitability Risk
+## 5. Tables are the primary product profitability risk
 
 Tables generated approximately **$207.0K in sales** but produced a loss of approximately **$17.7K**, equivalent to a **-8.56% margin**.
 
 Bookcases and Supplies were also loss-making, while Machines generated substantial revenue at a margin of only **1.79%**.
 
-### 6. Discount Intensity Is the Strongest Profitability Warning Signal
+**Business implication:** Tables should be the first product-level profitability recovery target.
 
-| Discount category  | Weighted profit margin |
-| ------------------ | ---------------------: |
-| No Discount        |             **29.51%** |
-| Low Discount       |             **11.91%** |
-| Medium Discount    |            **-19.70%** |
-| High Discount      |            **-97.37%** |
-| Very High Discount |           **-180.03%** |
+## 6. Discount intensity is the strongest profitability warning signal
+
+| Discount Category | Weighted Profit Margin |
+|---|---:|
+| No Discount | **29.51%** |
+| Low Discount | **11.91%** |
+| Medium Discount | **-19.70%** |
+| High Discount | **-97.37%** |
+| Very High Discount | **-180.03%** |
 
 Profitability becomes structurally negative beyond the Low Discount category.
 
-Medium, High, and Very High Discount transactions generated a combined loss of approximately **$135.4K**.
+**Business implication:** deeper discounts should require stronger commercial justification and approval.
 
-### 7. Loss-Making Activity Represents a Material Commercial Problem
+## 7. Loss-making activity represents a material commercial problem
 
 Approximately **1,871 transaction lines** were loss-making. These transactions represented:
 
-* **18.72%** of transaction lines
-* **$468.7K** in sales
-* **20.40%** of total revenue
-* Approximately **-$156.1K** in profit
+- **18.72%** of transaction lines
+- Approximately **$468.7K** in sales
+- **20.40%** of total revenue
+- Approximately **-$156.1K** in profit impact
 
-The result demonstrates why revenue growth should always be evaluated together with profitability.
+**Business implication:** revenue growth should always be evaluated together with profitability and loss exposure.
 
-### 8. Regional Profitability Varies Significantly
+## 8. Regional profitability varies significantly
 
 The West was the strongest region, with approximately:
 
-* **$725.5K in sales**
-* **$108.4K in profit**
-* **14.94% profit margin**
+- **$725.5K in sales**
+- **$108.4K in profit**
+- **14.94% profit margin**
 
-Central generated a meaningful share of revenue but delivered the weakest regional margin at approximately **7.92%**.
+Central delivered the weakest regional margin at approximately **7.92%**.
 
-### 9. The Largest Customer Segment Is Not the Most Margin-Efficient
+**Business implication:** management should identify the commercial practices supporting West performance and test whether they can be transferred to weaker regions.
+
+## 9. The largest customer segment is not the most margin-efficient
 
 Consumer generated more than half of total sales, but Home Office achieved the strongest segment margin at approximately **14.03%**.
 
 Corporate also outperformed Consumer on margin efficiency.
 
-### 10. Revenue Rank Can Hide Customer Losses
+**Business implication:** segment strategy should balance revenue scale with margin quality.
+
+## 10. Revenue rank can hide customer losses
 
 Tamara Chand was the most profitable customer, generating approximately **$9.0K in profit** at a **47.14% margin**.
 
 In contrast, Sean Miller ranked first in sales with approximately **$25.0K**, but generated an overall loss of approximately **$2.0K**.
 
-Customer value should therefore be measured using both sales and profit.
+**Business implication:** customer value should be measured using both sales and profit.
 
-## Strategic Recommendations
+---
 
-1. **Strengthen discount governance**
-   Use Low Discount as the standard ceiling and require approval and documented deal economics for deeper discounts.
+# Strategic Recommendations
 
-2. **Recover Furniture profitability**
-   Begin with Tables and review pricing, discount exposure, product mix, and cost structure before pursuing additional volume.
+### 1. Strengthen discount governance
+Use Low Discount as the standard ceiling and require approval and documented deal economics for deeper discounts.
 
-3. **Scale proven winners**
-   Protect Technology and the West region, and identify commercial practices that can be transferred to weaker areas.
+### 2. Recover Furniture profitability
+Begin with Tables and review pricing, discount exposure, product mix, and cost structure before pursuing additional volume.
 
-4. **Manage customer quality**
-   Rank customers using both revenue and profit, and investigate high-sales accounts that generate weak or negative returns.
+### 3. Scale proven winners
+Protect Technology and the West region, and identify commercial practices that can be transferred to weaker areas.
 
-5. **Monitor loss-making activity**
-   Include loss-making rate, discount mix, category margin, customer profit, and regional margin in recurring management reporting.
+### 4. Manage customer quality
+Rank customers using both revenue and profit, and investigate high-sales accounts that generate weak or negative returns.
 
-6. **Prepare for Q4 demand**
-   Align inventory, staffing, and commercial activity with the September-to-December peak while protecting margin discipline.
+### 5. Monitor loss-making activity
+Include loss-making rate, discount mix, category margin, customer profit, and regional margin in recurring management reporting.
+
+### 6. Prepare for Q4 demand
+Align inventory, staffing, and commercial activity with the September-to-December peak while protecting margin discipline.
+
+---
+
+## Executive Presentation Preview
+
+<p align="center">
+  <img src="presentation-preview/Screenshot%202026-09-02%20161645.png" alt="Executive Presentation Preview" width="100%">
+</p>
+
+<p align="center">
+  <img src="presentation-preview/Screenshot%202026-09-02%20161702.png" alt="Executive Presentation Recommendation Slide" width="100%">
+</p>
+
+**[Download the full PowerPoint presentation](./Commercial_Sales_Profitability_Customer_Analytics_Insights.pptx)**
+
+---
 
 ## Repository Structure
 
 ```text
 commercial-sales-profitability-analytics/
 ├── README.md
-├── data/
-│   └── Commercial-Sales-Profitability-Customer-Analytics.xlsx
-├── presentation/
-│   └── Commercial-Sales-Profitability-Customer-Analytics-Insights.pptx
-├── images/
-│   ├── dashboard-preview.png
-│   └── presentation-preview.png
-└── LICENSE
+├── Commercial Sales, Profitability & Customer Analytics - Google Sheets.xlsx
+├── Commercial_Sales_Profitability_Customer_Analytics_Insights.pptx
+├── dashboard_preview/
+│   ├── Screenshot 2026-09-02 160747.png
+│   └── Screenshot 2026-09-02 161300.png
+└── presentation-preview/
+    ├── Screenshot 2026-09-02 161645.png
+    └── Screenshot 2026-09-02 161702.png
 ```
+
+---
 
 ## How to Use the Project
 
-1. Download or clone the repository.
-2. Open the workbook in Microsoft Excel or upload it to Google Sheets.
+1. Review the dashboard screenshots above for a quick management-level overview.
+2. Download the workbook and open it in Microsoft Excel or upload it to Google Sheets.
 3. Begin with the `READ_ME` worksheet for project context.
-4. Review the `DASHBOARD` and `EXECUTIVE_SUMMARY` worksheets for management-level findings.
-5. Open the PowerPoint presentation for the executive narrative and recommendations.
+4. Review `BUSINESS_ANALYSIS` for the detailed analytical reasoning.
+5. Review `DASHBOARD` and `EXECUTIVE_SUMMARY` for management-level findings.
+6. Download the PowerPoint presentation for the final executive narrative and recommendations.
+
+---
 
 ## Skills Demonstrated
 
-* Data cleaning and validation
-* Feature engineering
-* Spreadsheet formulas and calculated metrics
-* Pivot-table analysis
-* KPI design
-* Sales and profitability analysis
-* Customer and product segmentation
-* Discount and margin analysis
-* Dashboard design
-* Data storytelling
-* Executive business communication
+### Data Preparation
+- Data cleaning and validation
+- Structured analytical workflow
+- Source-data preservation
+
+### Feature Engineering
+- Date-based features
+- Profitability metrics
+- Unit economics
+- Business classification flags
+
+### Spreadsheet Analytics
+- Google Sheets / Excel
+- Spreadsheet formulas
+- Dynamic references
+- Calculated business metrics
+
+### Pivot Analysis
+- Multi-dimensional aggregation
+- KPI development
+- Segmentation analysis
+- Profitability analysis
+
+### Data Visualization
+- Executive dashboard design
+- KPI cards
+- Trend analysis
+- Comparative profitability charts
+
+### Business Analytics
+- Revenue analysis
+- Margin analysis
+- Discount analysis
+- Customer profitability
+- Product profitability
+- Regional analysis
+- Operational performance
+
+### Business Communication
+- Translating analytical findings into business insights
+- Executive reporting
+- Strategic recommendations
+- Management-focused storytelling
+
+---
+
+## Tools
+
+- **Google Sheets**
+- **Microsoft Excel**
+- **Microsoft PowerPoint**
+- Spreadsheet formulas
+- Pivot Tables
+- Feature Engineering
+- Data Visualization
+- Business Analytics
+
+---
 
 ## Data Source
 
 This portfolio project uses the **Sample Superstore** dataset, a commonly used public demonstration dataset for analytics and business-intelligence projects.
 
+---
+
 ## Disclaimer
 
-This project is intended for portfolio and educational purposes. The data represents a sample business dataset and should not be interpreted as the financial performance of a real company.
+This project is intended for **portfolio and educational purposes**. The data represents a sample business dataset and should not be interpreted as the financial performance of a real company.
