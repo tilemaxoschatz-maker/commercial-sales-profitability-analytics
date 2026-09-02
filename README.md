@@ -1,10 +1,19 @@
 # Commercial Sales, Profitability & Customer Analytics
 
-**End-to-end commercial analytics portfolio project built in Google Sheets / Excel**
+**End-to-end commercial analytics portfolio project built natively in Google Sheets**
 
 This project transforms **9,994 transactional records** from the Sample Superstore dataset into management-ready insights about **sales growth, profitability, customers, products, regions, discounts, order value, and shipping performance**.
 
-The repository includes the complete analytical workbook and an executive PowerPoint presentation that translates the analysis into practical commercial recommendations.
+> **Best viewing experience:** open the native Google Sheets version below. The `.xlsx` file is included as a downloadable copy, but some chart positions, formatting, merged cells, and Google Sheets-specific features may look different after Excel export.
+
+## Live Project
+
+**[▶ View the full native Google Sheets workbook](https://docs.google.com/spreadsheets/d/1Ns3utzGzkob_6FDs5UfKkbWYPI-DN6F8f-mIIG_66-Y/edit?usp=sharing)**
+
+### Downloads
+
+- **[Download the Excel export](./Commercial%20Sales%2C%20Profitability%20%26%20Customer%20Analytics%20-%20Google%20Sheets.xlsx)**
+- **[Download the executive PowerPoint presentation](./Commercial_Sales_Profitability_Customer_Analytics_Insights.pptx)**
 
 ---
 
@@ -18,13 +27,6 @@ The repository includes the complete analytical workbook and an executive PowerP
   <img src="dashboard_preview/Screenshot%202026-09-02%20161300.png" alt="Commercial Analytics Dashboard Detail" width="100%">
 </p>
 
-### Project Files
-
-- **[Download the Excel / Google Sheets workbook](./Commercial%20Sales%2C%20Profitability%20%26%20Customer%20Analytics%20-%20Google%20Sheets.xlsx)**
-- **[Download the executive PowerPoint presentation](./Commercial_Sales_Profitability_Customer_Analytics_Insights.pptx)**
-
-> GitHub does not fully preview `.xlsx` and `.pptx` files in the browser. The files are stored correctly in the repository and can be downloaded directly from the links above.
-
 ---
 
 ## Project Overview
@@ -35,8 +37,9 @@ The repository includes the complete analytical workbook and an executive PowerP
 | **Dataset** | Sample Superstore transactional dataset |
 | **Analysis period** | 2014–2017 |
 | **Data volume** | 9,994 transaction rows |
-| **Main tools** | Google Sheets, Excel, formulas, feature engineering, pivot tables, charts, and PowerPoint |
-| **Primary metrics** | Sales, profit, profit margin, orders, customers, average order value, and loss-making rate |
+| **Primary tool** | Google Sheets |
+| **Supporting tools** | Excel export, formulas, feature engineering, pivot tables, charts, PowerPoint |
+| **Primary metrics** | Sales, profit, profit margin, orders, customers, average order value, loss-making rate |
 
 ---
 
@@ -46,7 +49,7 @@ The analysis goes beyond basic sales reporting to answer a more important manage
 
 > **What is driving profitable growth, where is margin being lost, and what actions should management take to improve commercial performance?**
 
-The project therefore evaluates not only revenue volume, but also the **quality of revenue** across products, customers, regions, discount levels, order values, and shipping methods.
+The project evaluates not only revenue volume, but also the **quality of revenue** across products, customers, regions, discount levels, order values, and shipping methods.
 
 ---
 
@@ -287,12 +290,13 @@ commercial-sales-profitability-analytics/
 
 ## How to Use the Project
 
-1. Review the dashboard screenshots above for a quick management-level overview.
-2. Download the workbook and open it in Microsoft Excel or upload it to Google Sheets.
-3. Begin with the `READ_ME` worksheet for project context.
-4. Review `BUSINESS_ANALYSIS` for the detailed analytical reasoning.
+1. **Open the native Google Sheets workbook first** for the intended layout and formatting.
+2. Review the dashboard screenshots above for a quick management-level overview.
+3. Use the `READ_ME` worksheet for project context.
+4. Review `BUSINESS_ANALYSIS` for detailed analytical reasoning.
 5. Review `DASHBOARD` and `EXECUTIVE_SUMMARY` for management-level findings.
 6. Download the PowerPoint presentation for the final executive narrative and recommendations.
+7. Use the `.xlsx` export only when a local Excel copy is required; visual formatting may differ from the native Google Sheets version.
 
 ---
 
@@ -310,7 +314,8 @@ commercial-sales-profitability-analytics/
 - Business classification flags
 
 ### Spreadsheet Analytics
-- Google Sheets / Excel
+- Google Sheets
+- Excel interoperability
 - Spreadsheet formulas
 - Dynamic references
 - Calculated business metrics
